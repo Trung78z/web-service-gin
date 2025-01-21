@@ -3,7 +3,37 @@
 This is a web service built using the Gin framework in Go. It includes user management functionalities with PostgreSQL and Redis integration.
 
 ## Project Structure
-. ├── cmd/ │ └── main.go ├── config/ │ └── config.go ├── db/ │ ├── migration/ │ │ ├── 000001_init_schema.down.sql │ │ └── 000001_init_schema.up.sql │ └── query/ │ └── user.sql ├── internal/ │ ├── controllers/ │ │ └── userController.go │ ├── middlewares/ │ ├── repositories/ │ │ ├── queries/ │ │ │ ├── db.go │ │ │ ├── models.go │ │ │ └── user.sql.go │ │ └── repository.go │ ├── routes/ │ │ ├── main.go │ │ └── userRoutes.go │ └── services/ │ └── userService.go ├── pkg/ │ ├── cache/ │ │ └── rd.go │ ├── database/ │ │ └── db.go │ ├── logger/ │ └── utils/ │ ├── helpers.go │ └── response.go ├── test/ │ └── test.http ├── .air.toml ├── .env ├── .env.example ├── .gitignore ├── docker-compose.yml ├── go.mod ├── go.sum ├── main_test.go ├── Makefile ├── README.md └── sqlc.yaml
+. 
+├── cmd/ 
+│ └── main.go 
+├── config/ 
+│ └── config.go 
+├── db/ │ 
+├── migration/ 
+│ │ ├── 000001_init_schema.down.sql 
+│ │ └── 000001_init_schema.up.sql │ └── query/ │ └── user.sql ├── internal/ │ ├── controllers/ │ │ └── userController.go │ ├── middlewares/ │ ├── repositories/ │ │ ├── queries/ 
+│ │ │ ├── db.go 
+│ │ │ ├── models.go 
+│ │ │ └── user.sql.go │ │ └── repository.go │ ├── routes/ │ │ ├── main.go │ │ └── userRoutes.go │ └── services/ │ └── userService.go ├── pkg/ │ ├── cache/ │ │ └── rd.go 
+│ ├── database/ 
+│ │ └── db.go 
+│ ├── logger/ 
+│ └── utils/ 
+│ ├── helpers.go 
+│ └── response.go 
+├── test/ 
+│ └── test.http 
+├── .air.toml 
+├── .env 
+├── .env.example 
+├── .gitignore 
+├── docker-compose.yml 
+├── go.mod 
+├── go.sum 
+├── main_test.go 
+├── Makefile 
+├── README.md 
+└── sqlc.yaml
 
 ## Getting Started
 
