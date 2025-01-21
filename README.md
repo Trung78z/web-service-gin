@@ -48,9 +48,9 @@ This is a web service built using the Gin framework in Go. It includes user mana
 ├── go.mod 
 ├── go.sum 
 ├── main_test.go 
-├── Makefile 
+<!-- ├── Makefile 
 ├── README.md 
-└── sqlc.yaml
+└── sqlc.yaml -->
 
 ## Getting Started
 
