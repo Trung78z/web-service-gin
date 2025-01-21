@@ -1,0 +1,18 @@
+@baseUrl = http://localhost:8080/api/v1
+
+
+GET {{baseUrl}}/users HTTP/1.1
+content-type: application/json
+
+###
+GET {{baseUrl}}/users/1 HTTP/1.1
+content-type: application/json
+
+###
+POST  {{baseUrl}}/users HTTP/1.1
+content-type: application/json
+
+{
+    "name": "John Doe",
+    "email": "johndoe@gmail.com"
+}
