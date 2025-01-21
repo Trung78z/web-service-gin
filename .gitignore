@@ -3,3 +3,4 @@
 **/go.sum
 **/tmp
 **/docker-compose.yml
+**/pkg/logger/*
