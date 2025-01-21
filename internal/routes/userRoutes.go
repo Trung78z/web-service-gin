@@ -12,8 +12,8 @@ func addUserRoutes(rg *gin.RouterGroup) {
 	userGroup := rg.Group("/users")
 	UserService := services.NewUserService(repositories.Queries)
 	UserController := controllers.NewUserController(UserService)
-	userGroup.POST("/", UserController.CreateUser)
+	userGroup.POST("", UserController.CreateUser)
 	userGroup.GET("/:id", UserController.GetUserByID)
-	userGroup.GET("/", UserController.ListUsers)
+	userGroup.GET("", UserController.ListUsers)
 
 }

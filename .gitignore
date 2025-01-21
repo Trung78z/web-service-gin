@@ -1,3 +1,4 @@
 **/.env
 **/Makefile
 **/go.sum
+**/tmp
