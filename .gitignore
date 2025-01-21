@@ -2,3 +2,4 @@
 **/Makefile
 **/go.sum
 **/tmp
+**/docker-compose.yml
