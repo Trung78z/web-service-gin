@@ -1,10 +1,11 @@
 package controllers
 
 import (
-	"github/Trung78z/web-service-gin/internal/services"
-	"github/Trung78z/web-service-gin/pkg/utils"
 	"net/http"
 	"strconv"
+
+	"github.com/Trung78z/web-service-gin/internal/services"
+	"github.com/Trung78z/web-service-gin/pkg/utils"
 
 	"github.com/gin-gonic/gin"
 )

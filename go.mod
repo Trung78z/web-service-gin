@@ -1,4 +1,4 @@
-module github/Trung78z/web-service-gin
+module github.com/Trung78z/web-service-gin
 
 go 1.23.3
 

@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"github/Trung78z/web-service-gin/internal/controllers"
-	"github/Trung78z/web-service-gin/internal/repositories"
-	"github/Trung78z/web-service-gin/internal/services"
+	"github.com/Trung78z/web-service-gin/internal/controllers"
+	"github.com/Trung78z/web-service-gin/internal/repositories"
+	"github.com/Trung78z/web-service-gin/internal/services"
 
 	"github.com/gin-gonic/gin"
 )

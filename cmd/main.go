@@ -1,12 +1,13 @@
 package main
 
 import (
-	"github/Trung78z/web-service-gin/config"
-	"github/Trung78z/web-service-gin/internal/repositories"
-	"github/Trung78z/web-service-gin/internal/routes"
-	"github/Trung78z/web-service-gin/pkg/cache"
-	"github/Trung78z/web-service-gin/pkg/database"
 	"log"
+
+	"github.com/Trung78z/web-service-gin/config"
+	"github.com/Trung78z/web-service-gin/internal/repositories"
+	"github.com/Trung78z/web-service-gin/internal/routes"
+	"github.com/Trung78z/web-service-gin/pkg/cache"
+	"github.com/Trung78z/web-service-gin/pkg/database"
 )
 
 func main() {

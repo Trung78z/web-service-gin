@@ -1,8 +1,8 @@
 package repositories
 
 import (
-	"github/Trung78z/web-service-gin/internal/repositories/queries"
-	"github/Trung78z/web-service-gin/pkg/database"
+	"github.com/Trung78z/web-service-gin/internal/repositories/queries"
+	"github.com/Trung78z/web-service-gin/pkg/database"
 )
 
 var Queries *queries.Queries

@@ -2,8 +2,9 @@ package services
 
 import (
 	"context"
-	"github/Trung78z/web-service-gin/internal/repositories/queries"
 	"log"
+
+	"github.com/Trung78z/web-service-gin/internal/repositories/queries"
 )
 
 type UserService struct {
